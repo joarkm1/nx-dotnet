@@ -1,0 +1,18 @@
+{
+  "name": "generated-storm-api-types",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/generated/storm-api-types/src",
+  "projectType": "library",
+  "targets": {
+    "codegen": {
+      "executor": "@trumbitta/nx-plugin-openapi:generate-api-lib-sources",
+      "options": {
+        "generator": "typescript-fetch",
+        "sourceSpecPathOrUrl": "packages/generated/storm-api-swagger/swagger.json"
+      },
+      "dependsOn": ["^swagger"]
+    }
+  },
+  "implicitDependencies": ["storm-api-swagger"],
+  "tags": []
+}

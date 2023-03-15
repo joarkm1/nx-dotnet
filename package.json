@@ -12,6 +12,8 @@
     "@nrwl/js": "15.8.6",
     "@nrwl/linter": "15.8.6",
     "@nx-dotnet/core": "^1.20.0",
+    "@openapitools/openapi-generator-cli": "2.3.7",
+    "@trumbitta/nx-plugin-openapi": "^1.12.1",
     "@types/jest": "^29.4.0",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.36.1",

@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@undefined/generated/storm-api-types": [
+        "packages/generated/storm-api-types/src/index.ts"
+      ],
       "generated/weather-api-types": [
         "packages/generated/weather-api-types/src/index.ts"
       ]

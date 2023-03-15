@@ -9,6 +9,8 @@
           "test",
           "e2e",
           "codegen",
+          "swagger",
+          "codegen",
           "swagger"
         ]
       }
@@ -29,7 +31,7 @@
       "inputs": ["default", "^default", "{workspaceRoot}/jest.preset.js"]
     },
     "build": {
-      "dependsOn": ["codegen", "^codegen"]
+      "dependsOn": ["codegen", "^codegen", "codegen", "^codegen"]
     }
   }
 }
