@@ -1,1 +1,2 @@
-export * from './lib/generated-weather-api-types';
+export * from './interfaces/date-only';
+export * from './interfaces/weather-forecast';
