@@ -2,12 +2,10 @@
   "name": "nx-dotnet",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "private": true,
-  "dependencies": {
-  },
   "devDependencies": {
+    "@nx-dotnet/core": "^1.20.0",
     "nx": "15.8.6",
     "prettier": "^2.6.2"
   }
